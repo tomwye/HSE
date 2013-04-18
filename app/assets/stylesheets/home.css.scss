@@ -14,6 +14,8 @@
 
   h1 { font-family: Lato, Arial, serif; font-weight: 400; 
   }
+ 
+
 
 
 
@@ -45,8 +47,8 @@
     height: 80px;
     margin-top: 0;
     font-size: 120px;
-    text-shadow: 0 1px 1px rgba(0,0,0,.4);
-    background-color: transparent;
+    
+    
     border: 0;
     z-index: 10;
   }
@@ -66,7 +68,7 @@
 
   .carousel-caption {
     position: absolute;
-    max-width: 400px;
+    max-width: 550px;
     padding: 35px 20px;
     margin-top: 35%;
     margin-left: 85px;
@@ -78,12 +80,22 @@
   .carousel-caption .lead {
     margin: 0;
     line-height: 1.25;
+    font-size: 1.25;
     color: #fff;
     text-shadow: 0 4px 4px rgba(0,0,0,.4);
   }
   .carousel-caption .btn {
     margin-top: 10px;
   }
+  .mc_embed_signup{
+    background: transparent; 
+    clear:right; 
+    font:14px Lato,Arial,sans-serif; 
+  }
+
+
+
+
 
 
 /* Footer
