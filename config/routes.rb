@@ -2,6 +2,7 @@ HSE::Application.routes.draw do
   devise_for :users
 
   get 'about' => 'pages#about'
+  get 'preview' => 'pages#betamap'
   
 root :to => 'pages#home'
 
